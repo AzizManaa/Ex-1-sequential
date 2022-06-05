@@ -19,4 +19,4 @@ module.exports = {
 If we want to have any type of sequential ordering we can use events, callbacks, we can also have the .reduce callback be a higher-order, 
 which, when called, calls the next function in the chain with the callback. 
 At the end, we'll have a function chain that will start by calling the first a, then the b
-or as of late we can Promises
+or as of late we can use Promises
